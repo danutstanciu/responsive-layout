@@ -31,4 +31,16 @@
         <param-value>Development</param-value>
     </context-param>
 
+    <!-- PrimeFaces Theme -->
+    <context-param>
+        <param-name>primefaces.THEME</param-name>
+        <param-value>saga</param-value>
+    </context-param>
+
+    <!-- PrimeFaces Font Awesome -->
+    <context-param>
+        <param-name>primefaces.FONT_AWESOME</param-name>
+        <param-value>true</param-value>
+    </context-param>
+
 </web-app>

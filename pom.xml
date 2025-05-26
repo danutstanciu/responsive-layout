@@ -40,7 +40,23 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- PrimeFaces -->
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>15.0.4</version>
+        </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>primefaces-repo</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>https://repository.primefaces.org</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
 
     <build>
         <finalName>my-webapp</finalName>
